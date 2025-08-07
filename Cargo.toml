@@ -1,0 +1,13 @@
+[package]
+name = "mut_flow"
+version = "0.1.0"
+authors = ["Nossie531"]
+edition = "2024"
+description = "Mutable reference wrapper for avoiding aliasing."
+repository = "https://github.com/nossie531/mut_flow"
+license = "MIT OR Apache-2.0"
+keywords = ["mut", "aliasing", "borrow-checker"]
+categories = ["no-std", "rust-pattern"]
+
+[dev-dependencies]
+test_panic = "0.4"
