@@ -4,6 +4,7 @@ use crate::prelude::*;
 use core::marker::PhantomData;
 
 /// Mutable reference wrapper.
+#[derive(Default)]
 pub struct MutSrc<'a, T>
 where
     T: 'a + ?Sized,

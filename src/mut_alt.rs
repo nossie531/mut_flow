@@ -4,6 +4,7 @@ use crate::prelude::*;
 use core::marker::PhantomData;
 
 /// Mutable reference alternate.
+#[derive(Default)]
 pub struct MutAlt<'a, T: 'a> {
     /// Address to mutation source.
     addr: usize,
