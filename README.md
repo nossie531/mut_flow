@@ -11,9 +11,9 @@ This crate provides mutable reference wrapper for avoiding aliasing.
 
 ## Background
 
-As an important principle of Rust, mutable reference aliasings are
-not allowed by borrow checker. This restriction eliminates edits from
-multiple locations. This is the fundamental for various kinds of safety.
+As an important principle of Rust, mutable reference aliasings are not allowed
+by borrow checker. This restriction eliminates edits from multiple locations. 
+This is the fundamental for various kinds of safety and optimization.
 
 However, aliasing rules sometimes lead us into dead end,
 even if we are not trying to make dangerous edits.
